@@ -1,0 +1,147 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+#loginpopup{
+    position: fixed;
+    transition: all 1s ease-in-out;
+    background-color: #e7f5f0;;
+    z-index: 900;
+    overflow: hidden;
+}
+#allthepopup{
+  position: fixed;
+  transition: all 1s ease-in-out;
+  background-color: #e7f5f0;;
+  z-index: 900;
+  overflow: hidden;
+  }
+
+body{
+     background-color: #e7f5f0;
+    text-align: center;
+}
+.pvc{
+    font-size: 2rem;
+    position:absolute;
+    padding-left: 70px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+#popup{
+   background-color: #9191ec;
+   border-radius: 20px;
+   margin-top: 90px;
+   margin-left: 400px;
+   width: 500px;
+   height: 500px;
+   box-shadow: 2px 2px 2px 2px black;
+}
+.close{
+    padding-top: 1px;
+    margin-left: 460px;
+    width:5%;}
+.close a{
+    text-decoration: none;
+}
+.close p{
+    background-color: #ff0000;
+    border-radius: 100px;
+    padding: 6px;
+    font-weight: bold;
+    transition: all 200ms;
+    }
+.close p:hover{
+    background-color: #53bd53;
+    cursor: pointer;
+}
+.avx{
+    padding-top: 37px;
+}
+input{
+    padding-top: 25px;
+    width: 400px;
+    border-radius: 25px;
+}
+.input_email, .input_passcode, .recap, .subbmit{
+    padding-bottom: 20px;
+    
+}
+.input_email1, .input_passcode1, .recap1, .subbmit1{
+    padding: 10px;
+    background-color: #aed2f7;
+    font-weight: bold;
+}
+.input_email1:focus, .input_passcode1:focus, .recap1:focus, .subbmit1:focus{
+    padding: 11px;
+    background-color: #f5f5f5;
+    font-weight: bolder;
+    font-size: large;
+    color:#f14545;
+    
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #9191ec;
+    overflow: hidden;
+  }
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.recap{
+    margin-left: 40px;
+    text-align: left;
+    float:left;
+    clear:both;
+}
+.recap1{
+    width:90px;
+    }
+.recaptcha{
+    float:left;
+    clear:both;
+    background-color: aqua;
+    position:absolute;
+    margin-left: 200px;
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-image: url(../images/codex\ 1.jfif);
+    background-repeat: no-repeat;
+}
+.subbmit1{
+    margin-top: 35px;
+    cursor:pointer;
+    background-color: #92e292;}
+.subbmit1:hover{
+    background-color: #008000;
+}
+.subbmit1:focus{
+    padding: 7px;   
+    background-color: #92e292;
+}
+.footer{
+    font-weight: bold;
+}
+.footer a{
+    text-decoration: none;
+    color: #008000;
+}
+.footer a:hover{color: #92e292;}
+
+
+@media screen and (max-width: 700px){
+       .popup{
+      width: 70%;
+    }
+  }
