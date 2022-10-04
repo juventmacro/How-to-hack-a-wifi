@@ -145,3 +145,206 @@ input{
       width: 70%;
     }
   }
+@media screen and (max-width: 700px){
+       *{
+      width: 60%;
+    }
+#container_12_grid_12{
+    width:60%;
+}
+#allthepopup{
+    width:60%;
+}
+#loginpopup{
+    width:60%;
+}
+img{
+    max-width: 50%;
+    max-height: 40%;
+}
+table{
+    max-width:60%;
+}
+  }
+  @media screen and (max-width: 480px){
+    *{
+   width: 50%;
+ }
+#container_12_grid_12{
+ width:50%;
+}
+#allthepopup{
+ width:50%;
+}
+#loginpopup{
+ width:50%;
+}
+img{
+ max-width: 40%;
+ max-height: 30%;
+}
+table{
+ max-width:50%;
+}
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    *{
+        width: 50%;
+      }
+     #container_12_grid_12{
+      width:50%;
+     }
+     #allthepopup{
+      width:50%;
+     }
+     #loginpopup{
+      width:50%;
+     }
+     img{
+      max-width: 40%;
+      max-height: 30%;
+     }
+     table{
+      max-width:50%;
+     }
+  }
+  
+  /* #### Mobile Phones Landscape #### */
+  @media screen and (max-device-width: 640px) and (orientation: landscape){
+    *{
+        width: 70%;
+      }
+     #container_12_grid_12{
+      width:70%;
+     }
+     #allthepopup{
+      width:70%;
+     }
+     #loginpopup{
+      width:70%;
+     }
+     img{
+      max-width: 50%;
+      max-height: 40%;
+     }
+     table{
+      max-width:60%;
+     }
+  }
+  
+  /* #### Mobile Phones Portrait or Landscape #### */
+  @media screen and (max-device-width: 640px){
+    *{
+        width: 60%;
+      }
+  #container_12_grid_12{
+      width:60%;
+  }
+  #allthepopup{
+      width:60%;
+  }
+  #loginpopup{
+      width:60%;
+  }
+  img{
+      max-width: 50%;
+      max-height: 40%;
+  }
+  table{
+      max-width:60%;
+  }
+  }
+  
+  /* #### iPhone 4+ Portrait or Landscape #### */
+  @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    *{
+        width: 60%;
+      }
+  #container_12_grid_12{
+      width:60%;
+  }
+  #allthepopup{
+      width:60%;
+  }
+  #loginpopup{
+      width:60%;
+  }
+  img{
+      max-width: 50%;
+      max-height: 40%;
+  }
+  table{
+      max-width:60%;
+  }
+  }
+  
+  /* #### iPhone 5 Portrait or Landscape #### */
+  @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    *{
+        width: 60%;
+      }
+  #container_12_grid_12{
+      width:60%;
+  }
+  #allthepopup{
+      width:60%;
+  }
+  #loginpopup{
+      width:60%;
+  }
+  img{
+      max-width: 50%;
+      max-height: 40%;
+  }
+  table{
+      max-width:60%;
+  }
+  }
+  
+  /* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+  @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+    *{
+        width: 60%;
+      }
+  #container_12_grid_12{
+      width:60%;
+  }
+  #allthepopup{
+      width:60%;
+  }
+  #loginpopup{
+      width:60%;
+  }
+  img{
+      max-width: 50%;
+      max-height: 40%;
+  }
+  table{
+      max-width:60%;
+  }
+  }
+  
+  /* #### Tablets Portrait or Landscape #### */
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    *{
+        width: 70%;
+      }
+  #container_12_grid_12{
+      width:70%;
+  }
+  #allthepopup{
+      width:70%;
+  }
+  #loginpopup{
+      width:70%;
+  }
+  img{
+      max-width: 60%;
+      max-height: 50%;
+  }
+  table{
+      max-width:60%;
+  }
+  }
